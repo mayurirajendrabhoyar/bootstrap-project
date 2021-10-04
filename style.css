@@ -1,0 +1,215 @@
+*{
+  padding: 0;
+  margin: 0;
+ }
+ body{
+  overflow-x: hidden;
+  font-family: 'Open Sans',sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing:antialiases;
+ }
+ li{
+  list-style: none;
+  display: inline-block;
+ }
+ a{
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+ }
+ a:hover
+ a:active{
+  text-decoration: none;
+ }
+ h1,h2,h4{
+  font-family: 'PT Sans Narraw',arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+ }
+ p{
+  font-size: 15px;line-height: 21px;
+ }
+ .btn{
+  transition: all .3s ease-in-out;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+ }
+ .btn:hover{
+        background: #ededed !important;
+        color: #3c3c3c !important;
+        border: 1px solid #afb1b4;
+ }
+ 
+ 
+ 
+ 
+ /*NAVIGATION*/
+ 
+ .navbar{
+         background-color:#4f9aa6;
+         text-transform:uppercase;
+         font-family:arial;
+         font-weight:700;
+        }
+ .navbar a{
+             color:#fff !important;
+             opacity:0.5;
+          }
+ .navbar a:hover{
+                 opacity:1;
+                 background:#111111;
+                 }
+ 
+ /* HEADER SECTION */
+ 
+ .header{
+         height:600px;
+         width:100%;
+         padding:40px;
+         margin-bottom:50px;
+         background:url(../images/background.png);
+         background-position:center center;
+         background-repeat:no-repeat;
+         background-size:cover;
+         color:#e4e4e4;
+        }
+
+  .header img{
+          width: 100%;
+         }
+  
+ .header h1{
+             font-size:44px;
+             font-weight:700;
+             margin:20px 0 20px;
+             padding-top: 125px;
+             text-align:center;
+             padding: 0 200px;
+           }
+ 
+ .header .btn{
+        border: 1px solid #afb1b4;
+	padding: 12px 20px;
+        border-radius: 5px;
+        font-size: 30px;
+        text-decoration: none;
+        margin-bottom: 155px;
+        margin-left: 360px;	
+            }
+
+  /* SERVICE SECTION START*/
+
+  .services{
+        padding:80px 0 80px;
+        text-align:center;
+       }
+  .services h2,.services h4{
+             color:#646773;
+             margin:20px 0 20px;
+        }
+  .services p{
+        color:#646773;
+        font-size:14px;
+        padding-bottom:40px;
+        }
+  .services i{
+        height:80px;
+        width:10px;
+        font-size:40px;
+        padding:25px 25px;
+        color:#5eb6c4;
+        float:left;
+        margin-left: 178px;
+       }
+
+      /* SERVICE SECTION END*/
+
+      /*dhavan section start*/
+
+ .dhavan-sec {
+        height:600px;
+        width: 100%;
+	text-align: center;
+        background-color: #00d089;
+
+}
+ .dhavan-sec h1 {
+	margin: 20px 0 20px;
+	color: #e4e4e4;
+        padding-top: 111px;
+        padding-bottom: 15px;
+}
+
+.dhavan-sec p {
+	color: #f4fcf8;
+        padding-top: 49px;
+        padding-bottom: 122px;
+}
+
+.dhavan-sec img {
+	width: 150px;
+	height: 150px;
+}
+
+  /*dhavan section end*/
+
+  /*form section start*/
+
+  .form{
+        height:600px;
+        width:100%;  
+        padding:50px 0 80px;
+        background:url(../images/Layer-42.png);
+        background-position:center center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        scroll-padding-right: 420px;
+        }
+
+      .form-circle{
+        width: 430px;
+	height: 430px;
+	background-color: #fdfdfd;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 309px;
+	top: calc(50% - 215px);
+        left: calc(50% - 215px);
+	opacity: 0.9;
+        padding-left: 76px;
+        padding-top: 110px;
+        padding-bottom: 33px;
+      }
+
+      .form .input-group{
+                margin-bottom:25px; 
+               }
+      .form .form-control{
+                border-radius:0 !important;
+                background:url(../images/white-circle-img.png);
+                background-position:center center;
+                background-repeat:no-repeat;
+                background-size:cover;
+                }
+     .form-circle i{
+             color: #fff;
+             background-color: #00d089;
+             font-size: 50px;
+             border-radius: 50%;
+             margin-top: 5px;
+             margin-left: 100px;
+     }         
+
+  /*form section end*/
+
+  /* FOOTER start */
+
+  .FOOETR{
+      background-color: #00d089;
+      text-align: center; 
+  }
+
+  .FOOETR{
+       color: #fff;
+       font-size: 14px;
+    }
+  /* FOOTER end*/
