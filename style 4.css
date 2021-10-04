@@ -1,0 +1,137 @@
+.bgimg{
+  background-image: url('../IMAGES/flower-img.png');
+  background-size: 100%;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.navbar{
+  background-color: #fff;
+  opacity: 0.8;
+}
+
+.nav-item li{
+  color:#7c7d7d ;
+}
+
+.nav-item i{
+  color: #fff;
+  background-color: #de6d6e;
+  margin-top: 16px;
+  height: 19px;
+  width: 60px;
+  font-size: 14px;
+}
+
+/*navigation section end*/
+
+/*header section start*/
+
+.hearderset{
+  padding-top: 325px;
+  box-sizing: border-box;
+  padding-bottom: 84px;
+}
+
+.hearderset h2{
+       font-size: 68.99px;
+}
+
+.hearderset p{
+  font-size: 25px;
+}
+
+/*header section end*/
+
+/*service section start*/
+.services{
+  padding:80px 0 80px;
+  text-align:center;
+ }
+.services h2{
+     color:#4c4c4c;
+     margin:20px 0 20px;
+     font-size:35px;
+  }
+.services p{
+  color:#717171;
+  font-size:17px;
+  padding-bottom:40px;
+  }
+.services i{
+  height: 136px;
+    width: 125px;
+    font-size: 33px;
+    padding: 26px 12px;
+    border-radius: 50%;
+    background: #4eb9f4;
+    color: #fff;
+   }
+ 
+/*service section END*/
+
+/*people section start*/
+
+.ourpeople img{
+    height: 131px;
+    width: 191px;
+    float: left;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+
+.ourpeople h5{
+  padding-top: 53px;
+  padding-left: 27px;
+  font-size: 27px;
+}
+
+.ourpeople p{
+  padding-top: 20px;
+  padding-bottom: 90px;
+  padding-left: 27px;
+  width: 571px;
+  font-size: 15px;
+}
+
+/*people section end*/
+
+
+
+.footer{
+  background-color: black; 
+  width: 100%;
+  background-size: 100%;
+}
+
+.footer-col h1{
+  font-size: 21px;
+  padding-top: 35px; 
+  padding-left: 66px;      
+}
+
+.footer-col p{
+  font-size: 15px;
+  width: 246px;
+  padding-left: 7px;    
+}
+
+.footer-col li{
+  padding-left: 26px;     
+}
+
+.footer-col i{
+  color: #252825;
+    background-color: #696b6a;
+    border-radius: 50%;
+    height: 45px;
+    width: 41px;
+    font-size: 23px;
+    padding: 12px 11px;
+    margin-top: 53px;
+}
+
+
+
+
+/*footer section end*/
